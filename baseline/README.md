@@ -22,6 +22,6 @@ DATASET_DIR = <path_to_dataset>
 1. Следовать [инструкции по установке](https://mmaction2.readthedocs.io/en/latest/get_started/installation.html)
 2. Использовать за основу конфиги для задачи [Action Recognition](https://github.com/open-mmlab/mmaction2/tree/dev-1.x/configs/recognition)
 3. Изменяемые параметры ```clip_len``` и ```frame_interval``` установить на нужное значение
-4. Убрать все аугментации 
+4. Убрать аугментации MixupBlending и CutmixBlending, т. к. они не предназначены для задачи Распознавания Жесвтового Языка
 4. Использовать датасет Slovo для обучения модели
 
